@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-export type Page = 'home' | 'present' | 'demo' | 'build' | 'assess';
+export type Page = 'home' | 'present' | 'demo' | 'build' | 'print' | 'assess';
 
 export interface Route {
   page: Page;
@@ -10,7 +10,7 @@ export interface Route {
   from?: number;
 }
 
-const PAGES: Page[] = ['home', 'present', 'demo', 'build', 'assess'];
+const PAGES: Page[] = ['home', 'present', 'demo', 'build', 'print', 'assess'];
 
 export function parseHash(hash: string): Route {
   const [path, query = ''] = hash.replace(/^#\/?/, '').split('?');

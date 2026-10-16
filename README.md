@@ -2,13 +2,14 @@
 
 Website trình bày và minh họa chủ đề STEM/STEAM **Magic English Cubes – Khối lập phương kỳ diệu** cho Tiếng Anh 6, *Global Success*, **Unit 3 – My Friends**.
 
-Website gồm bốn khu vực dùng chung trạng thái:
+Website gồm năm khu vực dùng chung trạng thái:
 
 | Khu vực | Nội dung |
 | --- | --- |
 | **Trình bày** | 9 cảnh (~10 phút, gồm demo trực tiếp), ghi chú người trình bày, chọn cảnh, toàn màn hình, phím tắt |
 | **Demo 3D** | 3 khối lập phương bìa in màu: xoay góc nhìn, gieo cả 3 hoặc từng khối, khóa/mở khóa, bộ sưu tập 18 mặt, ví dụ có hướng dẫn, khám phá tự do, quy trình Roll → Read → Build → Speak → Ask → Answer & Switch |
 | **Thiết kế & Chế tạo** | Hình khai triển gấp thành khối và mở ra, cạnh 5–6 cm, tô nổi 6 mặt / 12 cạnh / 8 đỉnh, S = 6a², tai dán, vật liệu, quy trình, so sánh cách gia cố |
+| **In mẫu** | Mẫu in A4 ngang cho từng khối: hình khai triển đúng kích thước thật, 7 tai dán, đường cắt/gấp, thước kiểm tra 10 cm; xem trước, tải PDF hoặc in trực tiếp |
 | **Đánh giá** | Cơ cấu 30% / 60% / 10%, rubric thiết kế và sản phẩm, quan sát nói cá nhân, phiếu thử nghiệm, nhật ký nhóm, vị trí minh chứng |
 
 Website chạy hoàn toàn trong trình duyệt. Không cần máy chủ, đăng nhập hay dịch vụ AI. Phông chữ và hình vẽ đều nằm trong dự án nên vẫn dùng được khi không có mạng (sau khi đã cài đặt).
@@ -51,6 +52,7 @@ Các bài kiểm tra tự động:
 - **Hội thoại A–B:** khớp với hai câu, bao gồm ví dụ trong hồ sơ ("Lan has long hair. She is friendly.").
 - **Hướng mặt khối:** mỗi mặt khi ở trên đều nằm thẳng và chữ đọc được.
 - **Hình khai triển:** gấp lại thành khối kín (8 đỉnh, 12 cạnh, 6 mặt); có 7 tai dán; S = 6a².
+- **Mẫu in A4:** vừa khổ A4 ngang với mọi kích thước. Cạnh mỗi ô đúng a (mm). Đường cắt khép kín. Tai dán đúng độ rộng. Có thước 10 cm.
 
 ## Cách trình bày
 
@@ -70,6 +72,16 @@ Các bài kiểm tra tự động:
 4. Bấm **← Quay lại bài thuyết trình** để trở về đúng cảnh 5. Từ vựng đã chọn trong demo được giữ nguyên và hiển thị ở các cảnh.
 
 Trạng thái (cảnh hiện tại, mặt khối, khóa, lựa chọn he/she) được lưu trong phiên trình duyệt. Tải lại trang không làm mất chỗ đang trình bày.
+
+## In mẫu khối (A4)
+
+1. Mở tab **In mẫu**, chọn cạnh a (5–6 cm), độ rộng tai dán (0,7–1,0 cm), các khối cần in và chế độ tiết kiệm mực nếu muốn.
+2. Xem trước từng trang, rồi bấm **Tải PDF A4** (mỗi khối một trang A4 ngang, ảnh 300 dpi) hoặc **In trực tiếp**.
+3. Khi in, chọn khổ **A4**, hướng **ngang**, tỷ lệ **100% / Kích thước thực** (tắt “Vừa trang”).
+4. Sau khi in, đo thước 10 cm ở mép phải: nếu không đúng 10 cm, máy in đã thu phóng. Hãy in lại với tỷ lệ 100%.
+5. Cắt theo đường liền, gấp theo nét đứt về phía sau (mặt in ở ngoài), bôi keo lên tai và dán vào bên trong.
+
+Hình khai triển và hướng chữ trên giấy dùng chung dữ liệu với mô hình gấp 3D. Vì vậy sau khi gấp, chữ trên mọi mặt đều đứng thẳng.
 
 ## Chỉnh sửa nội dung
 

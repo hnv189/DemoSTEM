@@ -60,6 +60,7 @@ export function BuildPage() {
           <p className="eyebrow">Thiết kế & Chế tạo</p>
           <h1>Hình khai triển và khối lập phương bằng bìa</h1>
         </div>
+        <a className="btn btn--primary" href="#/print">Tạo mẫu in A4 →</a>
       </header>
 
       <div className="build-grid">

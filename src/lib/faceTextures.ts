@@ -11,7 +11,7 @@ export interface FaceTextureResult {
   failed: string[];
 }
 
-function loadImage(src: string): Promise<HTMLImageElement | null> {
+export function loadImage(src: string): Promise<HTMLImageElement | null> {
   return new Promise((resolve) => {
     const img = new Image();
     img.onload = () => resolve(img);
@@ -69,11 +69,13 @@ function fitText(ctx: CanvasRenderingContext2D, text: string, maxWidth: number) 
 }
 
 /** One printed face: paper panel, words on top, illustration below. */
-export function drawFace(canvas: HTMLCanvasElement, text: string, art: HTMLImageElement | null, accent: string, seed: number) {
-  canvas.width = SIZE;
-  canvas.height = SIZE;
+export function drawFace(canvas: HTMLCanvasElement, text: string, art: HTMLImageElement | null, accent: string, seed: number, px = SIZE) {
+  canvas.width = px;
+  canvas.height = px;
   const ctx = canvas.getContext('2d')!;
-  ctx.clearRect(0, 0, SIZE, SIZE);
+  ctx.clearRect(0, 0, px, px);
+  // Layout is designed on a 512 px grid and scaled to the requested size.
+  ctx.setTransform(px / SIZE, 0, 0, px / SIZE, 0, 0);
 
   roundRect(ctx, 6, 6, SIZE - 12, SIZE - 12, 40);
   ctx.fillStyle = '#FFFDF8';

@@ -7,6 +7,7 @@ const AREAS = [
   { page: 'present' as const, title: 'Trình bày', text: '9 cảnh, khoảng 10 phút, có ghi chú người trình bày.', color: 'var(--who)' },
   { page: 'demo' as const, title: 'Demo 3D', text: 'Gieo, khóa khối, ghép hai câu và hội thoại A–B.', color: 'var(--looks)' },
   { page: 'build' as const, title: 'Thiết kế & Chế tạo', text: 'Hình khai triển gấp thành khối, cạnh 5–6 cm, 6a².', color: 'var(--personality)' },
+  { page: 'print' as const, title: 'In mẫu', text: 'Mẫu A4 đúng kích thước: cắt, gấp, dán thành 3 khối.', color: 'var(--looks)' },
   { page: 'assess' as const, title: 'Đánh giá', text: 'Rubric 30/60/10, quan sát nói cá nhân, phiếu thử nghiệm.', color: 'var(--primary)' },
 ];
 

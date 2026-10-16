@@ -6,11 +6,13 @@ import { PresentationPage } from './pages/PresentationPage';
 import { DemoPage } from './pages/DemoPage';
 import { BuildPage } from './pages/BuildPage';
 import { AssessPage } from './pages/AssessPage';
+import { PrintPage } from './pages/PrintPage';
 
 const NAV: { page: Page; label: string }[] = [
   { page: 'present', label: 'Trình bày' },
   { page: 'demo', label: 'Demo 3D' },
   { page: 'build', label: 'Thiết kế & Chế tạo' },
+  { page: 'print', label: 'In mẫu' },
   { page: 'assess', label: 'Đánh giá' },
 ];
 
@@ -45,6 +47,7 @@ function Shell() {
         {route.page === 'present' && <PresentationPage route={route} />}
         {route.page === 'demo' && <DemoPage route={route} />}
         {route.page === 'build' && <BuildPage />}
+        {route.page === 'print' && <PrintPage />}
         {route.page === 'assess' && <AssessPage />}
       </main>
     </div>
