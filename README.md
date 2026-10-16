@@ -54,6 +54,22 @@ Các bài kiểm tra tự động:
 - **Hình khai triển:** gấp lại thành khối kín (8 đỉnh, 12 cạnh, 6 mặt); có 7 tai dán; S = 6a².
 - **Mẫu in A4:** vừa khổ A4 ngang với mọi kích thước. Cạnh mỗi ô đúng a (mm). Đường cắt khép kín. Tai dán đúng độ rộng. Có thước 10 cm.
 
+## Đưa lên Vercel
+
+Dự án đã cấu hình sẵn trong `vercel.json`: Vite, `npm ci`, `npm run build`, thư mục `dist`, cache dài cho `assets/`. Website là trang tĩnh, dùng định tuyến bằng `#`, nên không cần máy chủ hay quy tắc rewrite.
+
+**Cách 1 – qua GitHub:** đẩy mã lên một kho GitHub. Trên vercel.com chọn **Add New → Project**, chọn kho đó rồi bấm **Deploy**. Vercel tự đọc `vercel.json`, không cần chỉnh thêm.
+
+**Cách 2 – dòng lệnh:**
+
+```bash
+npm i -g vercel
+vercel          # bản xem thử (preview)
+vercel --prod   # bản chính thức
+```
+
+Phiên bản Node: 18.18 trở lên (`.nvmrc` ghi 20). Website không cần biến môi trường.
+
 ## Cách trình bày
 
 1. Mở trang chủ, bấm **Bắt đầu thuyết trình**.
