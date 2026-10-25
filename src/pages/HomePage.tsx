@@ -62,7 +62,6 @@ export function HomePage() {
           <div><dt>Tổ chuyên môn</dt><dd>{blankOr(PROJECT.department)}</dd></div>
           <div><dt>Năm học</dt><dd>{blankOr(PROJECT.schoolYear)}</dd></div>
         </dl>
-        <p className="hint">Cập nhật tên giáo viên, tổ chuyên môn và năm học trong <code>src/content/project.ts</code>.</p>
       </section>
     </div>
   );
