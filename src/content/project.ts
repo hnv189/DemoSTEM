@@ -16,9 +16,9 @@ export const PROJECT = {
   duration: '02 tiết trên lớp (mỗi tiết 45 phút), kết hợp chuẩn bị và chế tạo ở nhà',
   product: 'Bộ 03 xúc xắc lập phương, thẻ hướng dẫn, nhật ký thiết kế – thử nghiệm và minh chứng giao tiếp',
   /** Editable: not provided in the proposal. */
-  teacherName: '',
-  department: '',
-  schoolYear: '',
+  teacherName: 'Sung Thị Kiều Nga',
+  department: 'Anh Văn',
+  schoolYear: '2026',
 };
 
 export const blankOr = (value: string) => (value.trim() ? value : '…………');
